@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="new2" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="329c9792-fc9e-4cac-84fb-941d1f8647ca">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (6)"/>
+	<subDataset name="Dataset1" uuid="853f5de2-d6a2-4a30-a3b2-392febbbbd04">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (7)"/>
+		<queryString language="SQL">
+			<![CDATA[select * from waterindustrydatainput]]>
+		</queryString>
+		<field name="day" class="java.lang.String"/>
+		<field name="month" class="java.lang.String"/>
+		<field name="year" class="java.lang.String"/>
+		<field name="industryname" class="java.lang.String"/>
+		<field name="industrytype" class="java.lang.String"/>
+		<field name="industrylocation" class="java.lang.String"/>
+		<field name="watertype" class="java.lang.String"/>
+		<field name="labcode" class="java.lang.String"/>
+		<field name="temperature" class="java.lang.String"/>
+		<field name="ph" class="java.lang.String"/>
+		<field name="ec" class="java.lang.String"/>
+		<field name="ts" class="java.lang.String"/>
+		<field name="tds" class="java.lang.String"/>
+		<field name="ss" class="java.lang.String"/>
+		<field name="do" class="java.lang.String"/>
+		<field name="cod" class="java.lang.String"/>
+		<field name="salinity" class="java.lang.String"/>
+		<field name="chloride" class="java.lang.String"/>
+		<field name="turbidity" class="java.lang.String"/>
+		<field name="totalhardness" class="java.lang.String"/>
+		<field name="oilandgrease" class="java.lang.String"/>
+		<field name="bod" class="java.lang.String"/>
+		<field name="remarks" class="java.lang.String"/>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[select * from waterindustrydatainput]]>
+	</queryString>
+	<field name="day" class="java.lang.String"/>
+	<field name="month" class="java.lang.String"/>
+	<field name="year" class="java.lang.String"/>
+	<field name="industryname" class="java.lang.String"/>
+	<field name="industrytype" class="java.lang.String"/>
+	<field name="industrylocation" class="java.lang.String"/>
+	<field name="watertype" class="java.lang.String"/>
+	<field name="labcode" class="java.lang.String"/>
+	<field name="temperature" class="java.lang.String"/>
+	<field name="ph" class="java.lang.String"/>
+	<field name="ec" class="java.lang.String"/>
+	<field name="ts" class="java.lang.String"/>
+	<field name="tds" class="java.lang.String"/>
+	<field name="ss" class="java.lang.String"/>
+	<field name="do" class="java.lang.String"/>
+	<field name="cod" class="java.lang.String"/>
+	<field name="salinity" class="java.lang.String"/>
+	<field name="chloride" class="java.lang.String"/>
+	<field name="turbidity" class="java.lang.String"/>
+	<field name="totalhardness" class="java.lang.String"/>
+	<field name="oilandgrease" class="java.lang.String"/>
+	<field name="bod" class="java.lang.String"/>
+	<field name="remarks" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<detail>
+		<band height="270" splitType="Stretch"/>
+		<band height="50"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
